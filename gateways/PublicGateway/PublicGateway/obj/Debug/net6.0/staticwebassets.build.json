@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ta6xwMaNA422WIeCrW328//O0Tadf6TDRro6++Soyb0=",
+  "Source": "PublicGateway",
+  "BasePath": "_content/PublicGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,24 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/abp/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/abp/{everything}",
+      "UpstreamHttpMethod": [ "Get", "PUT", "POST", "DELETE", "OPTIONS" ],
+      //"QoSOptions": {
+      //  "ExceptionsAllowedBeforeBreaking": 2,
+      //  "DurationOfBreak": 5000,
+      //  "TimeoutValue": 2000
+      //}
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://api.mybusiness.com"
+  }
+}
